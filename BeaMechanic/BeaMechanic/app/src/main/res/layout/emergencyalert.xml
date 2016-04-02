@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home1_group2_background"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Emergency Alert"
+        android:id="@+id/textView5"
+        android:textSize="30dp"
+        android:background="#ea1212"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:id="@+id/imageView5"
+        android:src="@mipmap/home1_imageview4_image"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Car Problems"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#585858" />
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/Capture" />
+
+</LinearLayout>
